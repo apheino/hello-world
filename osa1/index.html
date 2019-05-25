@@ -12,5 +12,24 @@
     <h1>Ykköstason otsikko</h1>
     <p>Tähän jotain tekstiä ilman että määritetään väriä.</p>
     <p>A brown quick fox jumped over an electrified fence. Just that it quite didn't make it and fried its tail. Poor thing...</p>
+
+    <form action="/my-handling-form-page" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Send your message</button>
+        </div>
+    </form>
+
 </body>
 </html>
