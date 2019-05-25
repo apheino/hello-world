@@ -1,4 +1,5 @@
-Tehdään repositorioon uusi tiedosto.
+﻿Tehdään repositorioon uusi tiedosto.
 
 dfdf
-bnbn
+bn bn bn
+
